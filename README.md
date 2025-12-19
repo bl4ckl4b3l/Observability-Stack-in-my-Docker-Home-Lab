@@ -1,9 +1,9 @@
 ## Observability-Stack-in-my-Docker-Home-Lab
 
-## The Goal ##
+## The Goal 
 The goal: Centralized metrics + logging, proactive monitoring, and learning real-world troubleshooting (I/O bottlenecks, container stability, resource tuning). This project has been gold for deepening Linux/Docker/Proxmox knowledge — perfect for infra/sec ops roles.
 
-## Key Components & Setup ##
+## Key Components & Setup
 
 ## Docker-Compose Structure:
 Separate networks: observability (internal metrics/logging), homelab (app bridge), proxy (Traefik external), macvlan_net (Pi-hole static IP).
